@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <link rel="icon" href="http://warehouse.gloshops.com/images/fevicon/fevicon.png" type="image/gif">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/list2.css">
+     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<!-- Optional theme -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <!-- Custom CSS -->
+     <link rel="stylesheet" href="style2.css">
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#ddlCountry,#ddlAge").on("change", function () {
+            var country = $('#ddlCountry').find("option:selected").val();
+            var age = $('#ddlAge').find("option:selected").val();
+            SearchData(country, age)
+        });
+    });
+    function SearchData(country, age) {
+        if (country.toUpperCase() == 'ALL' && age.toUpperCase() == 'ALL') {
+            $('#table11 tbody tr').show();
+        } else {
+            $('#table11 tbody tr:has(td)').each(function () {
+                var rowCountry = $.trim($(this).find('td:eq(1)').text());
+                var rowAge = $.trim($(this).find('td:eq(2)').text());
+                if (country.toUpperCase() != 'ALL' && age.toUpperCase() != 'ALL') {
+                    if (rowCountry.toUpperCase() == country.toUpperCase() && rowAge == age) {
+                        $(this).show();
+                    } else {
+                        $(this).hide();
+                    }
+                } else if ($(this).find('td:eq(1)').text() != '' || $(this).find('td:eq(1)').text() != '') {
+                    if (country != 'all') {
+                        if (rowCountry.toUpperCase() == country.toUpperCase()) {
+                            $(this).show();
+                        } else {
+                            $(this).hide();
+                        }
+                    }
+                    if (age != 'all') {
+                        if (rowAge == age) {
+                            $(this).show();
+                        }
+                        else {
+                            $(this).hide();
+                        }
+                    }
+                }
+ 
+            });
+        }
+    }
+</script>
+</head>
+<!-- Latest compiled and minified JavaScript -->
+<style>
+
+	</style>
+  
+</head>
+<body>
+	<h6 style="padding:48px;margin: 8px;width: 1272px;color:#014b94;background-color: #014b94;position: relative;left: -18px;margin-top: -45px;top: 40px;">p</h6>
+  <img src="images/basf5.jpg" height="93px" width="180px" style="position: relative;top: -69px;left: 60px;">
+
+<select  class="cl_country" id="ddlCountry" style="width: 170px;position: relative;top: 10px;left: -26px;padding: 6px;font-size: 15px;color: grey;cursor: pointer;background-color:#014B94 ;color: white;font-family: sans-serif;font-weight: bold;">
+    <option id="iil" value="all">Select Country</option>
+    <option value="UAE">UAE</option>
+    <option value="Egypt">Egypt</option>
+    <option value="Bahrain">Bahrain</option>
+    <option value="Saudia Arabia">Saudia Arabia</option>
+</select>
+<select class="cl_age" id="ddlAge" style="width:170px;position: relative;top: 10px;left:-10px;padding: 6px;font-size: 15px;color: white;cursor: pointer;background-color: #014B94;font-weight: bold;font-family: sans-serif;">
+    <option value="all" style="width:100px;padding: 8px;position: relative;top: 20px;">Select warehouse</option>
+    <option value="Internal">Internal</option>
+    <option value="External">External</option>
+    
+</select>
+
+	<table class="content-table" id="table11" class="" style="position:relative;top: -20px;">
+         
+  <thead>
+    <tr>
+     <th>Company Code</th>
+      <th>Country</th>
+       <th>Warehouse</th>
+      <th>Production Site</th>
+      <th>Legal Entities</th> 
+       <th>Contact Number</th>   
+      <th>Address</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="basfkano.html" target="basfkano.html">6055</a></td>
+      <td><a href="basfkano.html" target="basfkano.html">UAE</a></td>
+      <td><a href="basfkano.html" target="basfkano.html">Internal</a></td>
+      <td><a href="basfkano.html" target="basfkano.html">yes</a></td>
+      <td><a href="basfkano.html" target="basfkano.html">BASF kanoo,polyurethane LLC</a></td>
+      <td><a href="basfkano.html" target="basfkano.html">04-4540215</a></td>
+      <td><a href="basfkano.html" target="basfkano.html">Zone 3, Plot No 533-328, 490001 Dubai, United Arab Emirates</a></td>
+    </tr>
+ <tr>
+       <td><a href="basffze.html" target="basffze.html">6034</a></td>
+      <td><a href="basffze.html" target="basffze.html">UAE</a></td>
+      <td><a href="basffze.html" target="basffze.html">External</a></td>
+       <td><a href="basffze.html" target="basffze.html">Yes</a></td>
+      <td><a href="basffze.html" target="basffze.html">BASF MIDDLE EAST LLC & BASF FZE</a></td>
+      <td><a href="basffze.html" target="ext-war.html">04-4540215</a></td>
+      <td><a href="basffze.html" target="basffze.html">X37J+X4R - Mina Jebel AliJebel Ali Freezone - Dubai - United Arab Emirates</a></td>
+    </tr>
+
+
+    <tr>
+        <td><a href="Tad.html" target="Tad.html">6085</a></td>
+     <td><a href="Tad.html" target="Tad.html">UAE</a></td>
+      <td><a href="Tad.html" target="Tad.html">External</a></td>
+       <td><a href="Tad.html"target="Tad.html">yes</a></td>
+      <td><a href="Tad.html" target="Tad.html">TAD Logistics 1 | Chemical storage warehouse</a></td>
+       <td><a href="Tad.html" target="Tad.html">+966138538600</a></td>
+      <td><a href="Tad.html" target="Tad.html">Jafza South- Dubai - United Arab Emirates</a></td>
+    </tr>
+    <tr>
+     <td><a href="RSA.html"target="RSA.html">6085</a></td>
+     <td><a href="RSA.html" target="RSA.html">UAE</a></td>
+     <td><a href="RSA.html" target="RSA.html">External</a></td>
+     <td><a href="RSA.html" target="RSA.html">yes</a></td>
+      <td><a href="RSA.html" target="RSA.html">RSA TALKE DWC LLC</a></td>
+         <td><a href="RSA.html"target="RSA.html">+966138538600</a></td>
+      <td><a href="RSA.html"target="RSA.html">Dubai Logistics City - Dubai South - Dubai - United,Arab Emirates</a></td>
+    </tr>
+ 
+ 
+      <tr>
+         <td>6085</td>
+     <td>Bahrain</td>
+       <td>Internal</td>
+        <td>yes</td>
+       <td>BASF Plastic Additives Middle East S.P.C.</td>
+       <td>+966138538600</td>
+      <td>P.O. Box: 50993, Al Hidd, Kingdom of Bahrain</td>
+     
+    </tr>
+ 
+    <tr>
+        <td>6113</td>
+      <td>Saudia Arabia</td>
+       <td>Internal</td>
+        <td>Yes</td>
+      <td>BASF Saudi Arabia Limited Company</td>
+      <td>+966138538600</td>
+      <td>King Saud Road, Othman Towers, 14th Floor, Unit No.: 4, Dhahran, P.O.Box 4228, Zip Code: 34232, Kingdom of Saudi Arabia</td>
+    
+</tr>
+    <tr>
+         <td>5077</td>
+      <td>Egypt</td>
+         <td>Internal</td>
+          <td>Yes</td>
+      <td>BASF Ltd.</td>
+       <td>+20283400800</td>
+      <td>Building A1, Business Park A, Cairo Festival City, 11835 Cairo, Egypt</td>
+    </tr>
+
+    <tr>
+         <td>9066</td>
+      <td>Egypt</td>
+       <td>Internal</td>
+        <td>Yes</td>
+      <td>BASF Egypt</td>
+       <td>+20283400800</td>
+      <td>Nasr City, Cairo Governorate, Egypt</td>
+    </tr>
+
+    <tr>
+        <td>4578</td>
+      <td>UAE</td>
+      <td>Internal</td>
+        <td>Yes</td>
+      <td>BASF UAE</td>
+      <td>+97148090800</td>
+       <td>X37J+X4R - Mina Jebel AliJebel Ali Freezone - Dubai - United Arab Emirates</td>
+    </tr>
+    <tr>
+     <td>6578</td>
+      <td>UAE</td>
+      <td>Internal</td>
+       <td>Yes</td>
+      <td>BASF UAE</td>
+         <td>+97148090800</td>
+      <td>LOB # 15 6th Roundabout - Mina Jebel AliJebel Ali Freezone - Dubai - United Arab Emirates</td>
+    </tr>
+  </tbody>
+</table>
+</table>
+<div>
+        <p id="gol" style="position:relative;top: -30px;">BASF © Copyrights 2020 Design by BASF</p>
+
+</div>
+
+
+<footer><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </footer>
+
+
+<script>
+      const searchInput = document.getElementById("search");
+      const rows = document.querySelectorAll("tbody tr");
+      console.log(rows);
+      searchInput.addEventListener("keyup", function (event) {
+        const q = event.target.value.toLowerCase();
+        rows.forEach((row) => {
+          row.querySelector("td").textContent.toLowerCase().startsWith(q)
+            ? (row.style.display = "table-row")
+            : (row.style.display = "none");
+        });
+      });
+    </script>
+
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
+
+
+    <footer><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </footer>
+
+
+
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
+</body>
+
+</html>
