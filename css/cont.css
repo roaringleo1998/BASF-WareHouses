@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+<style type="text/css">
+			.um_request_name {
+				display: none !important;
+			}
+		</style>
+	<style>.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>		<style id="wp-custom-css">
+			div.wpforms-container-full .wpforms-form textarea.wpforms-field-large {
+    height: 220px;
+    background: #f0f0f0;
+    border: none;
+}
+#bid{
+	color: white;
+}
+div.wpforms-container-full .wpforms-form input[type=text] {
+    background: #f0f0f0;
+    border: none;
+		margin-bottom: 25px;
+}
+div.wpforms-container-full .wpforms-form input[type=number] {
+    background: #f0f0f0;
+    border: none;
+}
+div.wpforms-container-full .wpforms-form input[type=email]{
+		background: #f0f0f0;
+    border: none;
+}
+input#wpforms-212-field_10 {
+    background: #f0f0f0;
+    border: none;
+}
+.elementor-post__thumbnail {
+    padding-bottom: calc( 0 * 100% )!important;
+}
+.searchandfilter ul {
+    display: inline-flex;
+}
+.searchandfilter ul li {
+    margin-right: 80px;
+}
+li.sf-field-submit {
+    margin-top: 43px!important;
+}
+.um-center {
+    text-align: left;
+}
+button#wpforms-submit-212 {
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #21A0D2;
+    border-radius: 3px 3px 3px 3px;
+    padding: 18px 70px 18px 70px;
+    color: #fff;
+}
+.elementor-accordion .elementor-accordion-item {
+    border: 1px solid #d4d4d4;
+    border-left: none;
+    border-right: none;
+}
+#abc{
+	top: 119px;
+	position: relative;
+}
+#cid{
+	color: silver;
+	position: relative;
+	left: 100px;
+}
+#xyz{
+	position: relative;
+	top: 54px;
+	left: 60px;
+}
+.xyz{
+	position: relative;
+	top: -3px;
+	z-index: 999;
+	left: 90px;
+	
+}
+
+
+
+
+
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
