@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!-- basic -->
+<link rel="icon" href="http://warehouse.gloshops.com/images/fevicon/fevicon.png" type="image/gif">
+<meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+<!-- site metas -->
+<title>
+	BASF WAREHOUSE
+</title><meta name="keywords" /><meta name="description" /><meta name="author" />
+<!-- site icons -->
+<link rel="icon" href="images/fevicon/fevicon.png" type="image/gif" />
+<!-- bootstrap css -->
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+<!-- Site css -->
+<link rel="stylesheet" href="fontawesome/fonts/css/all.css">
+<link rel="stylesheet" href="css/basf1.css" />
+<!-- responsive css -->
+<link rel="stylesheet" href="css/basf2.css" />
+<!-- colors css -->
+<link rel="stylesheet" href="css/basf3.css" />
+<!-- custom css -->
+<link rel="stylesheet" href="css/custom.css" />
+<!-- wow Animation css -->
+<link rel="stylesheet" href="css/animate.css" />
+<!-- revolution slider css -->
+<link rel="stylesheet" type="text/css" href="revolution/css/settings.css" /><link rel="stylesheet" type="text/css" href="revolution/css/layers.css" /><link rel="stylesheet" type="text/css" href="revolution/css/navigation.css" />
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    
+    
+
+    <script type="text/javascript">
+
+    function Initialize() {
+
+        var mapOptions = {
+
+            center: new google.maps.LatLng(-33.01, 27.9),
+
+            zoom: 13,
+
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+
+        };
+
+        var map = new google.maps.Map(document.getElementById('GMap1'), mapOptions);
+
+        var input = document.getElementById('txtBoxMaps');
+
+        google.maps.event.addDomListener(input, 'click', showAlert);
+    }
+    function showAlert() {
+        window.alert('DIV clicked');
+    }
+
+    google.maps.event.addDomListener(window, 'load', Initialize);
+
+</script>
+      
+    <script src="js/loader.js"></script>
+    <link href="css/orgchart.css" rel="stylesheet" />
+    <script type="text/javascript">
+        google.charts.load('current', { packages: ["orgchart"] });
+        google.charts.setOnLoadCallback(drawChart);
+
+        function drawChart() {
+            var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Name');
+            data.addColumn('string', 'Manager');
+            data.addColumn('string', 'ToolTip');
+            // For each orgchart box, provide the name, manager, and tooltip to show.
+            data.addRows([
+              [{ 'v': 'Dr. Udo Huenger', 'f': 'Dr. Udo Huenger<div style="color:white; font-style:italic;font-size:15px">Vice President</div>' },
+               '', 'Vice President'],
+              [{ 'v': '....', 'f': '....<div style="color:white; font-style:italic;font-size:15px">MD</div>' },
+               'Dr. Udo Huenger', 'VP'],
+              ['....', 'Dr. Udo Huenger', ''],
+              ['...', '....', '.....'],
+              ['.....', '....', '']
+            ]);
+            data.setRowProperty(0, 'style', 'background: #144973;border:none;color:white;width:230px;height:50px;font-size:18px');
+            data.setRowProperty(1, 'style', 'background: #144973;border:none;color:white;width:230px;height:50px;font-size:18px');
+            data.setRowProperty(2, 'style', 'background: #144973;border:none;color:white;width:230px;height:50px;font-size:18px');
+            data.setRowProperty(3, 'style', 'background: #144973;border:none;color:white;width:230px;height:50px;font-size:18px');
+            data.setRowProperty(4, 'style', 'background: #144973;border:none;color:white;width:230px;height:50px;font-size:18px');
+            
+            // Create the chart.
+            var chart = new google.visualization.OrgChart(document.getElementById('chart_div'));
+            // Draw the chart, setting the allowHtml option to true for the tooltips.
+            
+            chart.draw(data, { 'allowHtml': true });
+            
+        }
+   </script>
+</head>
+<body id="default_theme" class="it_service">
+    <form method="post" action="./I_warehouse_Det.aspx" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE1OTM0MjAyODFkZDuwWk9iQiUAK/SfNg1uKAdLc2YU1DmRyPMaJGhYGEwY" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="FCDD70A6" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAJavIagil3RLkt9TvtBUU4jjDu35o5CUn6umW4JNpE1p42l5HCZTpP4Cz4jiJ1GM1Y1ij2biEVad0By532rOJho" />
+</div>
+    <div>
+        <!-- loader -->
+
+
+<!-- end header -->
+
+        
+    <div id="inner_banner" class="section inner_banner_section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="full">
+          <div class="title-holder">
+            <div class="title-holder-cell text-left">
+       
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="section padding_layout_1 service_list">
+  <div class="container">
+      <div align="center" style="width:100%;background:#014B96;padding-top:5px;position: relative;margin-top: -350px;">      <span id="ContentPlaceHolder1_Label7" style="color:White;font-size:30px;font-weight:bold;">TAD Logistics</span>
+</div>
+      <br />
+    <div class="row">
+      <div class="col-md-9">
+        <div class="row">
+          <div class="col-md-12 service_blog margin_bottom_50">
+            <div class="full">
+              <div class="service_img"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31094330.759802107!2d48.135246422355905!3d17.946389414601704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f0d7bd704f1a3%3A0xc6824b811e098c50!2sTAD%20Logistics%201%20%7C%20Chemical%20storage%20warehouse!5e0!3m2!1sen!2sin!4v1629177225352!5m2!1sen!2sin"  height="450" frameborder="0" style="border:0;width:90%" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> </div>
+              <br />
+                <br />
+                
+                 <div  id="chart_div"></div>
+            </div>
+          </div>
+          <div class="col-md-6 service_blog margin_bottom_50">
+            <div class="full">
+              <div class="service_img"> <img style="max-width:60%" class="img-responsive" src="images/jcb.jpg" alt="#" /> </div>
+              <div class="service_cont">
+               <table style="border-spacing: 10px;width:100%" cellspacing="30px" cellpadding="30px" >
+                   <tr>
+                       <td>
+                            <span id="ContentPlaceHolder1_Label6" style="color:Orange;font-weight:bold;">E-EVP</span>
+                           <br /><b>OD/RBU</b>
+
+                       </td>
+                       <td>
+                           <span id="ContentPlaceHolder1_Label1" style="color:Orange;font-weight:bold;">100</span>
+                           <br /><b>Total Stock</b>
+
+                       </td>
+                        <td>
+                            <span id="ContentPlaceHolder1_Label2" style="color:Orange;font-weight:bold;">32</span>
+                           <br /> <b>Employees on Site</b>
+
+                       </td>
+                   </tr>
+                   <tr>
+                       
+                       <td>
+                           <span id="ContentPlaceHolder1_Label3" style="color:Orange;font-weight:bold;">2300</span>
+                           <br /><b>Dispatch Volume<br /> per month</b>
+
+                       </td>
+                       <td>
+                           <span id="ContentPlaceHolder1_Label4" style="color:Orange;font-weight:bold;">10</span>
+                           <br /><b>Staff Sites</b>
+
+                       </td>
+                       <td>
+                           <span id="ContentPlaceHolder1_Label5" style="color:Orange;font-weight:bold;">1.2</span>
+                           <br /><b>Logistic Cost(mEuro)</b>
+
+                       </td>
+                   </tr>
+                  
+               </table>
+               
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 service_blog margin_bottom_50">
+              <div class="row">
+               <div class="col-md-6">
+           <div class="full">
+              <div class="service_blog_inner">
+                <h4 class="service-heading"><i class="fa fa-train" aria-hidden="true"></i>&nbsp; Dispatch Volumes</h4>
+               <b> <p>Inbound: 11000</p><p>Outbound: 9000</p></b>
+              </div>
+            </div></div>
+               <div class="col-md-6">
+               <div class="full">
+              <div class="service_blog_inner">
+                <h4 class="service-heading"><i class="fa fa-bar-chart" aria-hidden="true"></i>&nbsp;Total Stock (Avg T)</h4>
+                <b><p>RM* : 1500</p> <p>FG* : 1000</p></b>
+              </div>
+            </div></div>
+                    <div class="col-md-6">
+               <div class="full">
+              <div class="service_blog_inner">
+                <h4 class="service-heading"><i class="fa fa-cube" aria-hidden="true"></i>&nbsp;Pallet Size</h4>
+                <p> </p>
+              </div>
+            </div></div>
+                   <div class="col-md-6">
+               <div class="full">
+              <div class="service_blog_inner">
+                <h4 class="service-heading"><i class="fa fa-car" aria-hidden="true"></i>&nbsp;Transport Mode Split</h4>
+                <p> </p>
+              </div>
+            </div></div>
+                   <div class="col-md-6">
+               <div class="full">
+              <div class="service_blog_inner">
+                <h4 class="service-heading"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i>&nbsp;Packaging Split</h4>
+                <p> </p>
+              </div>
+            </div></div>
+
+              </div>
+          </div>
+        </div>
+       
+      </div>
+      <div class="col-md-3">
+        <div class="side_bar">
+              <div class="service_img"> <img class="img-responsive" class="image" src="images/picture1.jpg" alt="#" /> </div>
+              
+            <br />
+          <div class="side_bar_blog">
+            <h4>Contact</h4>
+            <p>TAD Logistics 1<br/><br/>
+              Dubai, UAE<br/><br/>
+              <span style="font-size:18px;"><i class="fa fa-phone"><a href="tel:+9876543210">+971 987654321</a></i></span></p>
+              <span style="font-size:18px;"><i class="fa fa-inbox"><a href="#">xyz@example.com</a></i></span></p>
+            </div>
+          <div class="side_bar_blog">
+            <h4>Supporting Services</h4>
+            <div class="categary">
+              <ul>
+                <li>Customs clearance</li>
+                <li>Labeling</li>
+                <li>Freight forwarding land,sea and air</li>
+              </ul>
+            </div>
+             
+
+          </div>
+        </div>
+      </div>
+
+
+        
+    </div>
+<div class="row">
+          <div class="section padding_layout_1 product_list_main" style="padding-top:5px">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+          <h3>Gallery</h3>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 col-xs-12 margin_bottom_30_all">
+            <div class="product_list">
+              <div class="product_img">
+               <div class="image">
+                <div id="zoom-In">
+                    <figure>
+<a href="images/picture2.jpg" data-rel=""><img class="image" src="images/picture2.jpg" alt="" title="" height="200px" height="100px"></a>
+</figure>
+            </div>
+                </div>
+              </div> 
+            </div>
+            </div>
+         
+
+            <div class="col-md-4 col-sm-6 col-xs-12 margin_bottom_30_all">
+            <div class="product_list">
+              <div class="product_img">
+              <div class="image">
+                <div id="zoom-In">
+                    <figure>
+<a href="images/picture1.jpg" data-rel=""><img class="image" src="images/picture1.jpg" alt="" title="" height="200px" height="100px"></a>
+</figure>
+            </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12 margin_bottom_30_all">
+            <div class="product_list">
+              <div class="product_img"> 
+               <div class="image">
+                <div id="zoom-In">
+                    <figure>
+<a href="images/picture5.jpg" data-rel=""><img class="image" src="images/picture5.jpg" alt="" title="" height="200px" height="100px"></a>
+</figure>
+            </div>
+                </div>
+              </div> 
+            </div>
+          </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12 margin_bottom_30_all">
+            <div class="product_list">
+              <div class="product_img"> 
+               <div class="image">
+                <div id="zoom-In">
+                    <figure>
+<a href="images/picture6.jpg" data-rel=""><img class="image" src="images/picture6.jpg" alt="" title="" height="200px" height="100px"></a>
+</figure>
+            </div>
+                </div>
+              </div>  
+              
+            </div>
+          </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12 margin_bottom_30_all">
+            <div class="product_list">
+              <div class="product_img"> 
+             <div class="image">
+                <div id="zoom-In">
+                    <figure>
+<a href="images/picture7.jpg" data-rel=""><img class="image" src="images/picture7.jpg" alt="" title="" height="200px" height="100px"></a>
+</figure>
+            </div>
+                </div>
+              </div> 
+            </div>
+          </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12 margin_bottom_30_all">
+            <div class="product_list">
+              <div class="product_img"> 
+                <div class="image">
+                <div id="zoom-In">
+                    <figure>
+<a href="images/picture8.jpg" data-rel=""><img class="image" src="images/picture8.jpg" alt="" title="" height="200px" height="100px"></a>
+</figure>
+            </div>
+                </div>
+              </div> 
+            </div>
+          </div>
+        </div>
+          <input type="submit" name="ctl00$ContentPlaceHolder1$Button1" value="View More" id="ContentPlaceHolder1_Button1" class="btn btn-primary" style="background-color:#014B96;border-color:#004B98;" />
+      </div>
+    </div>
+  </div>
+          </div>
+      </div>
+      
+  </div>
+</div>
+
+        
+    </div>
+    </form>
+    <footer class="footer_style_2">
+
+      
+      <div class="cprt">
+        <p>BASF © Copyrights 2020 Design by BASF</p>
+      </div>
+</footer>
+    <script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- menu js -->
+<script src="js/menumaker.js"></script>
+<!-- wow animation -->
+<script src="js/wow.js"></script>
+<!-- custom js -->
+<script src="js/custom.js"></script>
+<!-- revolution js files -->
+<script src="revolution/js/jquery.themepunch.tools.min.js"></script>
+<script src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.video.min.js"></script>
+</body>
+</html>
